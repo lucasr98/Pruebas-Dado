@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+:root{
+	font-size: 100%;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	width: 100%;
+	height: 100vh;
+	background-color: #222;
+	padding: 4rem;
+}
+
+.fa-solid{
+	display: none;
+	font-size: 10rem;
+	color: #fff;
+}
+
+.boton{
+	height: 5rem;
+	padding: 0 2rem 0 .5rem;
+	border: none;
+	outline: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 2rem;
+	background-color: #000;
+	border-radius: 5rem;
+	cursor: pointer;
+	transition: transform, background-color, .3s ease-in-out;
+}
+
+.boton:hover{
+	background-color: #32a1de;
+	transform: scale(1.05);
+}
+
+.resultado{
+	height: 4rem;
+	width: 4rem;
+	border-radius: 100%;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.texto{
+	color: #fff;
+}
